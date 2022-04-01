@@ -28,8 +28,6 @@ results = '//*[@id="searchResultsTable"]/tbody/tr[2]/td[2]'
 AccountSummary = '//*[@id="middle"]/table'
 
 driver.get(link)
-driver.get(link)
-sleep(2)
 print("application is ", driver.current_url)
 
 l = driver.find_element(by=By.XPATH, value=XP)
