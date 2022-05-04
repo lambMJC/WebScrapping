@@ -1,0 +1,68 @@
+STEPS TO GET THIS GOING:
+For WINDOWS 10 and CHROME
+--------------------------------------------------------------------------------
+Step 1:
+--------------------------------------------------------------------------------
+Click "SeleniumBasic-2.0.9.0" to run and install Selenium Basics 
+* Accept the Terms and Conditions "Accept the aggreement" > NEXT
+* SELECTING COMPONENTS:
+	There will be a drop down options that include:
+		Full installation
+		Compact Installation
+		Custom Installation
+	CHOOSE "Compact installation" > NEXT > INSTALL
+
+--------------------------------------------------------------------------------
+Step 2:
+--------------------------------------------------------------------------------
+Open up a webchrome browser.
+*Click the 3 drop down dots in the top right corner
+*Go to Help > About Google Chrome
+It should automatically start checking for updates
+If it needs an update, it will download and click Reload when done.
+
+The ChromeDriver I have included in this file is for Version 100.0.4896.88 and 101.0.4951.41
+If you version is higher or lower that Version, go to https://chromedriver.chromium.org/downloads and check under current releases for your version of Chrome
+Download it and extract the folder.
+
+Locate SeleniumBasics file location.
+Typically C:\Users\currentuser\AppData\Local\SeleniumBasic
+
+**where it says current user click or type your current user.**
+ 
+If you cannot find it in the location, go to Local Disk c: and search "SeleniunBasic" and it will search for that folder
+
+GRAB THE EXTRACTED CHROMEDRIVER you downloaded and drag it/put it into that SeleniumBasic" folder
+Close your files
+
+--------------------------------------------------------------------------------
+Step 3:
+--------------------------------------------------------------------------------
+OPEN UP THE EXCEL DOCUMENT THAT I HAVE PROVIDED IN THE FOLDER
+SAVE IT IN A SAFE FOLDER THAT YOU WILL USE A LOT
+DO NOT SAVE IT AGAIN AFTER THAT FIRST TIME!
+WHEN YOU GET THE OUTPUT OF THE DATA IN THE "Output" tab, copy and paste the tab into another excel document. then save and do whatever you want with the data.
+
+Enable the content.
+
+***IF it doesnt work, you might have to enable the selenium library in the developer tools.
+
+ENABLE DEVELOPER TAB-
+Go into settings and enable "Developer tools" tab
+*FILE> EXCEL OPTIONS > CUSTOMIZE RIBBON > CHECK "Developer"
+click okay
+
+Click "visual Basics" in the "Developer" tab
+Within the Visual Basics window, Click Tools > references
+
+click "S" and it should take you to the S's. Find "Selenium Type Library" and check it
+Click okay
+Close Visual Basics window and return to "SearchSheet" and try it out
+It should be working
+
+REMINDER------------------------------------------------------------------------
+There is another file that if created with the output of the search results, that should be saved instead of the WSCO file.
+
+--------------------------------------------------------------------------------
+ENJOY
+
