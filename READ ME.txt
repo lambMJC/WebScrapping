@@ -34,9 +34,18 @@ If you cannot find it in the location, go to Local Disk c: and search "SeleniunB
 
 GRAB THE EXTRACTED CHROMEDRIVER you downloaded and drag it/put it into that SeleniumBasic" folder
 Close your files
-
 --------------------------------------------------------------------------------
 Step 3:
+--------------------------------------------------------------------------------
+NEED TO ENABLE MICROSOFT .NET FRAMEWORK 3.5:
+
+1. Click the WINDOWS KEY on your keyboard and search "Windows Features" and press ENTER.
+2. Select the .NET Framework 3.5 (includes .NET 2.0 and 3.0) check box, select OK, and reboot your computer if prompted.
+
+https://docs.microsoft.com/en-us/dotnet/framework/install/dotnet-35-windows
+
+--------------------------------------------------------------------------------
+Step 4:
 --------------------------------------------------------------------------------
 OPEN UP THE EXCEL DOCUMENT THAT I HAVE PROVIDED IN THE FOLDER
 SAVE IT IN A SAFE FOLDER THAT YOU WILL USE A LOT
